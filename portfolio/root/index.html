@@ -1238,25 +1238,25 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" placeholder="Enter subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
+             <form action="https://formspree.io/f/xzzjykpj" method="POST" id="contactForm" class="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" name="subject" id="subject" placeholder="Enter subject" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea name="message" id="message" rows="5" placeholder="Enter your message" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
         </div>
     </div>
 
@@ -1575,6 +1575,7 @@
 </body>
 
 </html>
+
 
 
 
